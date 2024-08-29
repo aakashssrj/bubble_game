@@ -153,7 +153,7 @@ function Timer() {
     }, 1000);
 }
 function getHit() {
-    var hiteval = Math.floor(Math.random() * 10)
+    hiteval = Math.floor(Math.random() * 10)
     document.querySelector("#hitval").textContent = hiteval;
 }
 
